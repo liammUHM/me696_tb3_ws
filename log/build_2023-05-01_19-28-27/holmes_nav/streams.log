@@ -1,0 +1,51 @@
+[0.543s] Invoking command in '/home/liam/me696_tb3_ws/src/holmes_nav': PYTHONPATH=/home/liam/me696_tb3_ws/build/holmes_nav/prefix_override:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/holmes_nav build --build-base /home/liam/me696_tb3_ws/build/holmes_nav/build install --record /home/liam/me696_tb3_ws/build/holmes_nav/install.log --install-scripts $base/lib/holmes_nav --single-version-externally-managed
+[0.753s] running egg_info
+[0.754s] creating ../../build/holmes_nav/holmes_nav.egg-info
+[0.755s] writing ../../build/holmes_nav/holmes_nav.egg-info/PKG-INFO
+[0.755s] writing dependency_links to ../../build/holmes_nav/holmes_nav.egg-info/dependency_links.txt
+[0.755s] writing entry points to ../../build/holmes_nav/holmes_nav.egg-info/entry_points.txt
+[0.755s] writing requirements to ../../build/holmes_nav/holmes_nav.egg-info/requires.txt
+[0.756s] writing top-level names to ../../build/holmes_nav/holmes_nav.egg-info/top_level.txt
+[0.757s] writing manifest file '../../build/holmes_nav/holmes_nav.egg-info/SOURCES.txt'
+[0.780s] reading manifest file '../../build/holmes_nav/holmes_nav.egg-info/SOURCES.txt'
+[0.781s] writing manifest file '../../build/holmes_nav/holmes_nav.egg-info/SOURCES.txt'
+[0.782s] running build
+[0.782s] running build_py
+[0.783s] creating /home/liam/me696_tb3_ws/build/holmes_nav/build
+[0.783s] creating /home/liam/me696_tb3_ws/build/holmes_nav/build/lib
+[0.783s] creating /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav
+[0.783s] copying holmes_nav/hh2_node.py -> /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav
+[0.783s] copying holmes_nav/__init__.py -> /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav
+[0.784s] running install
+[0.784s] running install_lib
+[0.785s] creating /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav
+[0.785s] copying /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav/hh2_node.py -> /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav
+[0.786s] copying /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav/__init__.py -> /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav
+[0.786s] byte-compiling /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav/hh2_node.py to hh2_node.cpython-38.pyc
+[0.787s] byte-compiling /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav/__init__.py to __init__.cpython-38.pyc
+[0.787s] running install_data
+[0.788s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index
+[0.788s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index/resource_index
+[0.788s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index/resource_index/packages
+[0.788s] copying resource/holmes_nav -> /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index/resource_index/packages
+[0.788s] copying package.xml -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav
+[0.788s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/launch
+[0.789s] copying launch/holmes_hall.launch.py -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/launch
+[0.789s] copying launch/update_slam.xml -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/launch
+[0.789s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models
+[0.789s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2
+[0.789s] copying models/hh2/model.config -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2
+[0.789s] copying models/hh2/model.sdf -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2
+[0.789s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+[0.789s] copying models/hh2/meshes/hh2.stl -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+[0.791s] copying models/hh2/meshes/hh2_v2.stl -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+[0.791s] copying models/hh2/meshes/hh2_scaledown.stl -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+[0.792s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/worlds
+[0.792s] creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/worlds/hh2
+[0.792s] copying worlds/hh2/waffle.model -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/worlds/hh2
+[0.792s] running install_egg_info
+[0.794s] Copying ../../build/holmes_nav/holmes_nav.egg-info to /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav-0.0.0-py3.8.egg-info
+[0.794s] running install_scripts
+[0.811s] Installing hh2_node script to /home/liam/me696_tb3_ws/install/holmes_nav/lib/holmes_nav
+[0.812s] writing list of installed files to '/home/liam/me696_tb3_ws/build/holmes_nav/install.log'
+[0.835s] Invoked command in '/home/liam/me696_tb3_ws/src/holmes_nav' returned '0': PYTHONPATH=/home/liam/me696_tb3_ws/build/holmes_nav/prefix_override:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/holmes_nav build --build-base /home/liam/me696_tb3_ws/build/holmes_nav/build install --record /home/liam/me696_tb3_ws/build/holmes_nav/install.log --install-scripts $base/lib/holmes_nav --single-version-externally-managed

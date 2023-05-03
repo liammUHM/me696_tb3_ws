@@ -1,0 +1,3 @@
+[console_scripts]
+hh2_node = holmes_nav.hh2_node:main
+

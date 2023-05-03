@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:srv/DrlStep.srv",
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:srv/Goal.srv",
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:srv/RingGoal.srv",
+    "/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

@@ -1,0 +1,442 @@
+[0.020s] Invoking command in '/home/liam/me696_tb3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy /usr/bin/cmake /home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/liam/me696_tb3_ws/install/turtlebot3_msgs
+[0.089s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.217s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.218s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.298s] -- Detecting C compile features
+[0.298s] -- Detecting C compile features - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.385s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.466s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.469s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[0.485s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.485s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.681s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.774s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.881s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.892s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.925s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.094s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[1.096s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[1.098s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[1.100s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.302s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.318s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.318s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.318s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.318s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.331s] -- Found PythonExtra: .so  
+[1.380s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[1.382s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[1.389s] -- Configuring done
+[1.436s] -- Generating done
+[1.438s] -- Build files have been written to: /home/liam/me696_tb3_ws/build/turtlebot3_msgs
+[1.454s] Invoked command in '/home/liam/me696_tb3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy /usr/bin/cmake /home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/liam/me696_tb3_ws/install/turtlebot3_msgs
+[1.458s] Invoking command in '/home/liam/me696_tb3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy /usr/bin/cmake --build /home/liam/me696_tb3_ws/build/turtlebot3_msgs -- -j2 -l2
+[1.503s] [35m[1mScanning dependencies of target turtlebot3_msgs__cpp[0m
+[1.511s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.517s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.526s] [  2%] Built target turtlebot3_msgs__cpp
+[2.551s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.966s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_generator_c[0m
+[3.007s] [  4%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o[0m
+[3.072s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_cpp[0m
+[3.084s] [  5%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[3.115s] [  6%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o[0m
+[3.215s] [  8%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o[0m
+[3.358s] [  9%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o[0m
+[3.437s] [ 10%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[3.479s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/drl_step__functions.c.o[0m
+[3.617s] [ 12%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/goal__functions.c.o[0m
+[3.741s] [ 13%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/ring_goal__functions.c.o[0m
+[3.854s] [ 14%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o[0m
+[3.927s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[4.127s] [ 17%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so[0m
+[4.256s] [ 17%] Built target turtlebot3_msgs__rosidl_generator_c
+[4.297s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.396s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[4.854s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/drl_step__type_support.cpp.o[0m
+[5.298s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/goal__type_support.cpp.o[0m
+[5.755s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/ring_goal__type_support.cpp.o[0m
+[5.783s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.839s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o[0m
+[6.222s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[6.473s] [ 26%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[6.718s] [ 27%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_cpp.so[0m
+[6.796s] [ 27%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[6.804s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.294s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/version_info__type_support.cpp.o[0m
+[7.957s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[7.969s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_cpp[0m
+[8.003s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp.o[0m
+[8.375s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sound__type_support.cpp.o[0m
+[8.682s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/drl_step__type_support.cpp.o[0m
+[8.828s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.cpp.o[0m
+[9.278s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/sound__type_support.cpp.o[0m
+[9.437s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/goal__type_support.cpp.o[0m
+[9.563s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/drl_step__type_support.cpp.o[0m
+[10.006s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/goal__type_support.cpp.o[0m
+[10.124s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/ring_goal__type_support.cpp.o[0m
+[10.467s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/ring_goal__type_support.cpp.o[0m
+[10.670s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/action/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[11.018s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/action/detail/patrol__type_support.cpp.o[0m
+[11.227s] [ 45%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.432s] [ 47%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.496s] [ 47%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[11.547s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.648s] [ 48%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[11.697s] [ 49%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.541s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c[0m
+[12.578s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[12.674s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[12.764s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[12.815s] [ 54%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[12.883s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/drl_step__type_support.cpp.o[0m
+[12.954s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/goal__type_support.cpp.o[0m
+[12.967s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c[0m
+[13.006s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/ring_goal__type_support.cpp.o[0m
+[13.018s] [ 58%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__type_support.c.o[0m
+[13.077s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[13.104s] [ 60%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sound__type_support.c.o[0m
+[13.133s] [ 62%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_c.so[0m
+[13.203s] [ 63%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/version_info__type_support.c.o[0m
+[13.252s] [ 63%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[13.279s] [ 64%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__type_support.c.o[0m
+[13.292s] [ 65%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/drl_step__type_support.c.o[0m
+[13.386s] [ 66%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/goal__type_support.c.o[0m
+[13.390s] [ 67%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.478s] [ 68%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/ring_goal__type_support.c.o[0m
+[13.568s] [ 70%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/action/detail/patrol__type_support.c.o[0m
+[13.640s] [ 71%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_typesupport_introspection_c.so[0m
+[13.765s] [ 71%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[14.500s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c[0m
+[14.565s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sensor_state__type_support_c.cpp.o[0m
+[15.024s] [ 73%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sound__type_support_c.cpp.o[0m
+[15.339s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/version_info__type_support_c.cpp.o[0m
+[15.706s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/sound__type_support_c.cpp.o[0m
+[16.298s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/drl_step__type_support_c.cpp.o[0m
+[16.806s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/goal__type_support_c.cpp.o[0m
+[17.228s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/ring_goal__type_support_c.cpp.o[0m
+[17.769s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/action/detail/patrol__type_support_c.cpp.o[0m
+[18.220s] [ 81%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[18.436s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[18.473s] [35m[1mScanning dependencies of target turtlebot3_msgs[0m
+[18.510s] [ 81%] Built target turtlebot3_msgs
+[18.546s] [35m[1mScanning dependencies of target turtlebot3_msgs__py[0m
+[18.587s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.249s] [ 82%] Built target turtlebot3_msgs__py
+[20.259s] [35m[1mScanning dependencies of target turtlebot3_msgs__python[0m
+[20.282s] [ 83%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sensor_state_s.c.o[0m
+[20.338s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sound_s.c.o[0m
+[20.392s] [ 86%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_version_info_s.c.o[0m
+[20.446s] [ 87%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o[0m
+[20.520s] [ 88%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_drl_step_s.c.o[0m
+[20.604s] [ 89%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_goal_s.c.o[0m
+[20.674s] [ 90%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_ring_goal_s.c.o[0m
+[20.735s] [ 91%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/action/_patrol_s.c.o[0m
+[20.820s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__python.so[0m
+[20.852s] [ 93%] Built target turtlebot3_msgs__python
+[20.859s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[20.876s] [ 94%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.966s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[21.021s] [ 95%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[21.029s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[21.047s] [ 96%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.145s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[21.216s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[21.235s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c__pyext[0m
+[21.250s] [ 98%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[21.340s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[21.374s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[21.387s] Invoked command in '/home/liam/me696_tb3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy /usr/bin/cmake --build /home/liam/me696_tb3_ws/build/turtlebot3_msgs -- -j2 -l2
+[21.518s] Invoking command in '/home/liam/me696_tb3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy /usr/bin/cmake --install /home/liam/me696_tb3_ws/build/turtlebot3_msgs
+[21.529s] -- Install configuration: ""
+[21.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[21.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[21.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[21.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/drl_step.h
+[21.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/ring_goal.h
+[21.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/goal.h
+[21.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[21.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__type_support.h
+[21.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__functions.c
+[21.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__functions.h
+[21.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__struct.h
+[21.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.h
+[21.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__type_support.h
+[21.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.h
+[21.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.h
+[21.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__type_support.h
+[21.532s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__functions.h
+[21.532s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__struct.h
+[21.532s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__functions.h
+[21.532s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.c
+[21.532s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__struct.h
+[21.532s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__functions.c
+[21.533s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__functions.c
+[21.533s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.h
+[21.533s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[21.533s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.h
+[21.533s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.h
+[21.533s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[21.534s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.h
+[21.534s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.h
+[21.534s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.h
+[21.534s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.h
+[21.534s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.h
+[21.534s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.h
+[21.534s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.h
+[21.535s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.h
+[21.535s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.c
+[21.535s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.c
+[21.535s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.h
+[21.535s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.c
+[21.535s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[21.535s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.h
+[21.536s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[21.536s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[21.536s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.h
+[21.536s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.h
+[21.536s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.c
+[21.536s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.h
+[21.536s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.h
+[21.537s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[21.537s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv
+[21.537s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[21.537s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so" to ""
+[21.538s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[21.538s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[21.538s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[21.538s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h
+[21.538s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__rosidl_typesupport_fastrtps_c.h
+[21.538s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__rosidl_typesupport_fastrtps_c.h
+[21.538s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_c.h
+[21.538s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[21.538s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[21.539s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[21.539s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[21.539s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[21.539s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.539s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[21.539s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[21.539s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[21.539s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so
+[21.540s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[21.540s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[21.540s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[21.540s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[21.540s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__rosidl_typesupport_fastrtps_cpp.hpp
+[21.541s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[21.541s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dds_fastrtps
+[21.541s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[21.541s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[21.541s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[21.541s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.541s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[21.541s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[21.541s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/dds_fastrtps
+[21.542s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[21.542s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[21.542s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[21.542s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[21.542s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[21.542s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/dds_fastrtps
+[21.542s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.542s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.542s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[21.542s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[21.542s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[21.542s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__type_support.c
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_c.h
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__type_support.c
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__type_support.c
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__rosidl_typesupport_introspection_c.h
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.c
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__rosidl_typesupport_introspection_c.h
+[21.543s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[21.543s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.544s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[21.544s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[21.544s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[21.544s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.c
+[21.547s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.c
+[21.547s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.c
+[21.547s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[21.548s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[21.548s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[21.548s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.c
+[21.548s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[21.548s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[21.548s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so" to ""
+[21.548s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[21.548s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so" to ""
+[21.548s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[21.549s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/ring_goal.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/goal.hpp
+[21.549s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__builder.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__struct.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__traits.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__builder.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__struct.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__traits.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__builder.hpp
+[21.549s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__builder.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__traits.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__traits.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__struct.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/drl_step.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.hpp
+[21.550s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.hpp
+[21.550s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__builder.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__traits.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__builder.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__traits.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.hpp
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.hpp
+[21.550s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[21.550s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[21.550s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__traits.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__builder.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.hpp
+[21.551s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[21.551s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[21.551s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/goal__type_support.cpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__rosidl_typesupport_introspection_cpp.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.cpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__type_support.cpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/drl_step__type_support.cpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/ring_goal__rosidl_typesupport_introspection_cpp.hpp
+[21.551s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[21.551s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.cpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[21.551s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp
+[21.552s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[21.552s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.cpp
+[21.552s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[21.552s] -- Up-to-date: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[21.552s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.cpp
+[21.552s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[21.552s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[21.552s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[21.552s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[21.552s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so" to ""
+[21.552s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[21.553s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv
+[21.553s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py
+[21.586s] Compiling '/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py'...
+[21.590s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg
+[21.590s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state_s.c
+[21.590s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state.py
+[21.590s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info_s.c
+[21.591s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound.py
+[21.591s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info.py
+[21.591s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/__init__.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound_s.c
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_goal.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_drl_step.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_goal_s.c
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_ring_goal_s.c
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_drl_step_s.c
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_ring_goal.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/__init__.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound_s.c
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/__init__.py
+[21.592s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol_s.c
+[21.593s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[21.593s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[21.593s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[21.594s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[21.594s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[21.594s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[21.594s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so
+[21.595s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so" to ""
+[21.595s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[21.595s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[21.595s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[21.595s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[21.595s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/DrlStep.idl
+[21.595s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.idl
+[21.596s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/RingGoal.idl
+[21.596s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl
+[21.596s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[21.596s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[21.596s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[21.597s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[21.597s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[21.598s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[21.598s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/DrlStep.srv
+[21.598s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/DrlStep_Request.msg
+[21.598s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/DrlStep_Response.msg
+[21.598s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.srv
+[21.598s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal_Request.msg
+[21.598s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal_Response.msg
+[21.599s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/RingGoal.srv
+[21.599s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/RingGoal_Request.msg
+[21.599s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/RingGoal_Response.msg
+[21.599s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action
+[21.599s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[21.599s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[21.599s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[21.600s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv
+[21.600s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[21.600s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv
+[21.600s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[21.600s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[21.600s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[21.600s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cppExport.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[21.602s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[21.603s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[21.606s] Invoked command in '/home/liam/me696_tb3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy /usr/bin/cmake --install /home/liam/me696_tb3_ws/build/turtlebot3_msgs

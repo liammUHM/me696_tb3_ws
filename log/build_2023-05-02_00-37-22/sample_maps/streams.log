@@ -1,0 +1,20 @@
+[0.363s] Invoking command in '/home/liam/me696_tb3_ws/src/sample_maps': PYTHONPATH=/home/liam/me696_tb3_ws/build/sample_maps/prefix_override:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sample_maps build --build-base /home/liam/me696_tb3_ws/build/sample_maps/build install --record /home/liam/me696_tb3_ws/build/sample_maps/install.log --install-scripts $base/lib/sample_maps --single-version-externally-managed
+[0.465s] running egg_info
+[0.467s] writing ../../build/sample_maps/sample_maps.egg-info/PKG-INFO
+[0.467s] writing dependency_links to ../../build/sample_maps/sample_maps.egg-info/dependency_links.txt
+[0.467s] writing entry points to ../../build/sample_maps/sample_maps.egg-info/entry_points.txt
+[0.467s] writing requirements to ../../build/sample_maps/sample_maps.egg-info/requires.txt
+[0.467s] writing top-level names to ../../build/sample_maps/sample_maps.egg-info/top_level.txt
+[0.484s] reading manifest file '../../build/sample_maps/sample_maps.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../../build/sample_maps/sample_maps.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running build_py
+[0.485s] running install
+[0.486s] running install_lib
+[0.487s] running install_data
+[0.487s] running install_egg_info
+[0.488s] removing '/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages/sample_maps-0.0.0-py3.8.egg-info' (and everything under it)
+[0.489s] Copying ../../build/sample_maps/sample_maps.egg-info to /home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages/sample_maps-0.0.0-py3.8.egg-info
+[0.489s] running install_scripts
+[0.501s] writing list of installed files to '/home/liam/me696_tb3_ws/build/sample_maps/install.log'
+[0.515s] Invoked command in '/home/liam/me696_tb3_ws/src/sample_maps' returned '0': PYTHONPATH=/home/liam/me696_tb3_ws/build/sample_maps/prefix_override:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sample_maps build --build-base /home/liam/me696_tb3_ws/build/sample_maps/build install --record /home/liam/me696_tb3_ws/build/sample_maps/install.log --install-scripts $base/lib/sample_maps --single-version-externally-managed

@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/holmes_nav/holmes_nav.egg-info
+writing ../../build/holmes_nav/holmes_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/holmes_nav/holmes_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/holmes_nav/holmes_nav.egg-info/entry_points.txt
+writing requirements to ../../build/holmes_nav/holmes_nav.egg-info/requires.txt
+writing top-level names to ../../build/holmes_nav/holmes_nav.egg-info/top_level.txt
+writing manifest file '../../build/holmes_nav/holmes_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/holmes_nav/holmes_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/holmes_nav/holmes_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liam/me696_tb3_ws/build/holmes_nav/build
+creating /home/liam/me696_tb3_ws/build/holmes_nav/build/lib
+creating /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav
+copying holmes_nav/hh2_node.py -> /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav
+copying holmes_nav/__init__.py -> /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav
+running install
+running install_lib
+creating /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav
+copying /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav/hh2_node.py -> /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav
+copying /home/liam/me696_tb3_ws/build/holmes_nav/build/lib/holmes_nav/__init__.py -> /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav
+byte-compiling /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav/hh2_node.py to hh2_node.cpython-38.pyc
+byte-compiling /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index/resource_index
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index/resource_index/packages
+copying resource/holmes_nav -> /home/liam/me696_tb3_ws/install/holmes_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/launch
+copying launch/holmes_hall.launch.py -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/launch
+copying launch/update_slam.xml -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/launch
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2
+copying models/hh2/model.config -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2
+copying models/hh2/model.sdf -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+copying models/hh2/meshes/hh2.stl -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+copying models/hh2/meshes/hh2_v2.stl -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+copying models/hh2/meshes/hh2_scaledown.stl -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/models/hh2/meshes
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/worlds
+creating /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/worlds/hh2
+copying worlds/hh2/waffle.model -> /home/liam/me696_tb3_ws/install/holmes_nav/share/holmes_nav/worlds/hh2
+running install_egg_info
+Copying ../../build/holmes_nav/holmes_nav.egg-info to /home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages/holmes_nav-0.0.0-py3.8.egg-info
+running install_scripts
+Installing hh2_node script to /home/liam/me696_tb3_ws/install/holmes_nav/lib/holmes_nav
+writing list of installed files to '/home/liam/me696_tb3_ws/build/holmes_nav/install.log'

@@ -1,0 +1,108 @@
+[0.562s] Invoking command in '/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_drl': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo PYTHONPATH=/home/liam/me696_tb3_ws/build/turtlebot3_drl/prefix_override:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_drl build --build-base /home/liam/me696_tb3_ws/build/turtlebot3_drl/build install --record /home/liam/me696_tb3_ws/build/turtlebot3_drl/install.log --single-version-externally-managed
+[0.722s] running egg_info
+[0.723s] creating ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info
+[0.723s] writing ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/PKG-INFO
+[0.724s] writing dependency_links to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/dependency_links.txt
+[0.724s] writing entry points to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/entry_points.txt
+[0.724s] writing requirements to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/requires.txt
+[0.724s] writing top-level names to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/top_level.txt
+[0.725s] writing manifest file '../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/SOURCES.txt'
+[0.751s] reading manifest file '../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/SOURCES.txt'
+[0.752s] writing manifest file '../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/SOURCES.txt'
+[0.753s] running build
+[0.753s] running build_py
+[0.753s] creating /home/liam/me696_tb3_ws/build/turtlebot3_drl/build
+[0.753s] creating /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib
+[0.753s] creating /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl
+[0.753s] copying turtlebot3_drl/__init__.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl
+[0.753s] creating /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.754s] copying turtlebot3_drl/drl_agent/td3.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.754s] copying turtlebot3_drl/drl_agent/sac.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.754s] copying turtlebot3_drl/drl_agent/dqn.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.754s] copying turtlebot3_drl/drl_agent/off_policy_agent.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.754s] copying turtlebot3_drl/drl_agent/drl_agent.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.754s] copying turtlebot3_drl/drl_agent/__init__.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.754s] copying turtlebot3_drl/drl_agent/ddpg.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent
+[0.755s] creating /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.755s] copying turtlebot3_drl/common/settings.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.755s] copying turtlebot3_drl/common/graph.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.755s] copying turtlebot3_drl/common/visual.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.755s] copying turtlebot3_drl/common/ounoise.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.756s] copying turtlebot3_drl/common/logger.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.756s] copying turtlebot3_drl/common/utilities.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.756s] copying turtlebot3_drl/common/replaybuffer.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.756s] copying turtlebot3_drl/common/__init__.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.756s] copying turtlebot3_drl/common/storagemanager.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.757s] creating /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_gazebo
+[0.757s] copying turtlebot3_drl/drl_gazebo/drl_gazebo.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_gazebo
+[0.757s] copying turtlebot3_drl/drl_gazebo/__init__.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_gazebo
+[0.757s] creating /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment
+[0.757s] copying turtlebot3_drl/drl_environment/drl_environment.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment
+[0.757s] copying turtlebot3_drl/drl_environment/reward.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment
+[0.757s] copying turtlebot3_drl/drl_environment/__init__.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment
+[0.758s] running install
+[0.759s] running install_lib
+[0.760s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl
+[0.760s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.760s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent/td3.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.760s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent/sac.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.760s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent/dqn.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent/off_policy_agent.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent/drl_agent.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent/__init__.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_agent/ddpg.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent
+[0.761s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/settings.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/graph.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/visual.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/ounoise.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/logger.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.761s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/utilities.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.763s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/replaybuffer.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.763s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/__init__.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.763s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/storagemanager.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.763s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_gazebo
+[0.764s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_gazebo/drl_gazebo.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_gazebo
+[0.764s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_gazebo/__init__.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_gazebo
+[0.764s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment
+[0.764s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment/drl_environment.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment
+[0.764s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment/reward.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment
+[0.764s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment/__init__.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment
+[0.764s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/__init__.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl
+[0.765s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent/td3.py to td3.cpython-38.pyc
+[0.767s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent/sac.py to sac.cpython-38.pyc
+[0.772s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent/dqn.py to dqn.cpython-38.pyc
+[0.772s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent/off_policy_agent.py to off_policy_agent.cpython-38.pyc
+[0.773s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent/drl_agent.py to drl_agent.cpython-38.pyc
+[0.774s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent/__init__.py to __init__.cpython-38.pyc
+[0.774s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_agent/ddpg.py to ddpg.cpython-38.pyc
+[0.775s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/settings.py to settings.cpython-38.pyc
+[0.776s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/graph.py to graph.cpython-38.pyc
+[0.776s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/visual.py to visual.cpython-38.pyc
+[0.777s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/ounoise.py to ounoise.cpython-38.pyc
+[0.777s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/logger.py to logger.cpython-38.pyc
+[0.778s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/utilities.py to utilities.cpython-38.pyc
+[0.779s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/replaybuffer.py to replaybuffer.cpython-38.pyc
+[0.780s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/__init__.py to __init__.cpython-38.pyc
+[0.780s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/storagemanager.py to storagemanager.cpython-38.pyc
+[0.781s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_gazebo/drl_gazebo.py to drl_gazebo.cpython-38.pyc
+[0.783s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_gazebo/__init__.py to __init__.cpython-38.pyc
+[0.783s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment/drl_environment.py to drl_environment.cpython-38.pyc
+[0.785s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment/reward.py to reward.cpython-38.pyc
+[0.785s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment/__init__.py to __init__.cpython-38.pyc
+[0.785s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/__init__.py to __init__.cpython-38.pyc
+[0.785s] running install_data
+[0.786s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/share/ament_index
+[0.786s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/share/ament_index/resource_index
+[0.786s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/share/ament_index/resource_index/packages
+[0.786s] copying resource/turtlebot3_drl -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/share/ament_index/resource_index/packages
+[0.786s] copying package.xml -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/share/turtlebot3_drl
+[0.786s] creating /home/liam/me696_tb3_ws/install/turtlebot3_drl/share/turtlebot3_drl/launch
+[0.787s] running install_egg_info
+[0.788s] Copying ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl-2.0.0-py3.8.egg-info
+[0.789s] running install_scripts
+[0.806s] Installing drl_agent script to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.807s] Installing drl_environment script to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.807s] Installing drl_gazebo script to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.808s] writing list of installed files to '/home/liam/me696_tb3_ws/build/turtlebot3_drl/install.log'
+[0.834s] Invoked command in '/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_drl' returned '0': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo PYTHONPATH=/home/liam/me696_tb3_ws/build/turtlebot3_drl/prefix_override:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_drl build --build-base /home/liam/me696_tb3_ws/build/turtlebot3_drl/build install --record /home/liam/me696_tb3_ws/build/turtlebot3_drl/install.log --single-version-externally-managed

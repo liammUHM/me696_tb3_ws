@@ -1,0 +1,85 @@
+[0.016s] Invoking command in '/home/liam/me696_tb3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy PYTHONPATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/liam/me696_tb3_ws/install/turtlebot3_fake_node
+[0.072s] -- The C compiler identification is GNU 9.4.0
+[0.117s] -- The CXX compiler identification is GNU 9.4.0
+[0.121s] -- Check for working C compiler: /usr/bin/cc
+[0.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.171s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.297s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.394s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.520s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.543s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.604s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.630s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.811s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.849s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.851s] -- Looking for pthread.h
+[0.921s] -- Looking for pthread.h - found
+[0.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.981s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.982s] -- Looking for pthread_create in pthreads
+[1.039s] -- Looking for pthread_create in pthreads - not found
+[1.039s] -- Looking for pthread_create in pthread
+[1.101s] -- Looking for pthread_create in pthread - found
+[1.102s] -- Found Threads: TRUE  
+[1.193s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.241s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.249s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[1.386s] -- Found turtlebot3_msgs: 2.2.1 (/home/liam/me696_tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.489s] -- Configuring done
+[1.497s] -- Generating done
+[1.499s] -- Build files have been written to: /home/liam/me696_tb3_ws/build/turtlebot3_fake_node
+[1.511s] Invoked command in '/home/liam/me696_tb3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy PYTHONPATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/liam/me696_tb3_ws/install/turtlebot3_fake_node
+[1.512s] Invoking command in '/home/liam/me696_tb3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy PYTHONPATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/liam/me696_tb3_ws/build/turtlebot3_fake_node -- -j2 -l2
+[1.565s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[1.600s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[7.258s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[7.471s] [100%] Built target turtlebot3_fake_node
+[7.485s] Invoked command in '/home/liam/me696_tb3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy PYTHONPATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/liam/me696_tb3_ws/build/turtlebot3_fake_node -- -j2 -l2
+[7.512s] Invoking command in '/home/liam/me696_tb3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy PYTHONPATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/liam/me696_tb3_ws/build/turtlebot3_fake_node
+[7.524s] -- Install configuration: ""
+[7.525s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[7.527s] -- Set runtime path of "/home/liam/me696_tb3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[7.527s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[7.527s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[7.528s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[7.528s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[7.528s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[7.528s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[7.528s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[7.528s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz
+[7.528s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[7.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/include/
+[7.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[7.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[7.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[7.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[7.529s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[7.530s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[7.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[7.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[7.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[7.531s] -- Installing: /home/liam/me696_tb3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[7.536s] Invoked command in '/home/liam/me696_tb3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/me696_tb3_ws/install/turtlebot3_drl:/home/liam/me696_tb3_ws/install/sample_maps:/home/liam/me696_tb3_ws/install/holmes_nav:/opt/ros/foxy PYTHONPATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/liam/me696_tb3_ws/build/turtlebot3_fake_node

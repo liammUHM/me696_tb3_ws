@@ -1,0 +1,29 @@
+[0.464s] Invoking command in '/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_drl': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/install/turtlesim_part3 PYTHONPATH=/home/liam/me696_tb3_ws/build/turtlebot3_drl/prefix_override:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_drl build --build-base /home/liam/me696_tb3_ws/build/turtlebot3_drl/build install --record /home/liam/me696_tb3_ws/build/turtlebot3_drl/install.log --single-version-externally-managed
+[0.565s] running egg_info
+[0.565s] writing ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/PKG-INFO
+[0.566s] writing dependency_links to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/dependency_links.txt
+[0.566s] writing entry points to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/entry_points.txt
+[0.566s] writing requirements to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/requires.txt
+[0.566s] writing top-level names to ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/top_level.txt
+[0.583s] reading manifest file '../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/SOURCES.txt'
+[0.584s] writing manifest file '../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.584s] running build_py
+[0.584s] copying turtlebot3_drl/common/settings.py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.584s] copying turtlebot3_drl/drl_environment/drl_environment (ligma).py -> /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment
+[0.585s] running install
+[0.585s] running install_lib
+[0.586s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/settings.py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.586s] copying /home/liam/me696_tb3_ws/build/turtlebot3_drl/build/lib/turtlebot3_drl/drl_environment/drl_environment (ligma).py -> /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment
+[0.586s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/settings.py to settings.cpython-38.pyc
+[0.588s] byte-compiling /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/drl_environment/drl_environment (ligma).py to drl_environment (ligma).cpython-38.pyc
+[0.589s] running install_data
+[0.590s] running install_egg_info
+[0.590s] removing '/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl-2.0.0-py3.8.egg-info' (and everything under it)
+[0.591s] Copying ../../../../build/turtlebot3_drl/turtlebot3_drl.egg-info to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl-2.0.0-py3.8.egg-info
+[0.591s] running install_scripts
+[0.607s] Installing drl_agent script to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.607s] Installing drl_environment script to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.607s] Installing drl_gazebo script to /home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.608s] writing list of installed files to '/home/liam/me696_tb3_ws/build/turtlebot3_drl/install.log'
+[0.624s] Invoked command in '/home/liam/me696_tb3_ws/src/turtlebot3_drlnav/src/turtlebot3_drl' returned '0': CMAKE_PREFIX_PATH=/home/liam/me696_tb3_ws/install/turtlebot3_msgs:/home/liam/me696_tb3_ws/install/turtlebot3_simulations:/home/liam/me696_tb3_ws/install/turtlebot3_fake_node:/home/liam/me696_tb3_ws/install/turtlebot3_gazebo:/home/liam/install/turtlesim_part3 PYTHONPATH=/home/liam/me696_tb3_ws/build/turtlebot3_drl/prefix_override:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/turtlebot3_drl/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/sample_maps/lib/python3.8/site-packages:/home/liam/me696_tb3_ws/install/holmes_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_drl build --build-base /home/liam/me696_tb3_ws/build/turtlebot3_drl/build install --record /home/liam/me696_tb3_ws/build/turtlebot3_drl/install.log --single-version-externally-managed
